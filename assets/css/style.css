@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#start-page h1 {
+    text-align: center;
+}
+
+#start-page #start-quiz-button {
+    margin: auto;
+    display: block;
+}
+
+#quiz-page #question {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+#quiz-page .choice {
+    padding: 10px 20px;
+    background-color: lightblue;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
